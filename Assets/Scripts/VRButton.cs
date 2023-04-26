@@ -6,8 +6,8 @@ using UnityEngine.Events;
 
 public class VRButton : MonoBehaviour
 {
-    [SerializeField]
-    private GameObject Button;
+    //[SerializeField]
+    //private GameObject Button;
 
     [SerializeField]
     private float threshold = 0.1f;

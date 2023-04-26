@@ -24,6 +24,7 @@ public class TeleportScriptPhone : MonoBehaviour
     {
         if (other.tag == "Player") 
         {
+            Debug.Log("Player entered teleport");
             XRObject.transform.position = new Vector3(-1.74f, 0.5f, -11.752f);
         }
     }
