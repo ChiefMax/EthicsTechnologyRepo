@@ -3035,6 +3035,8 @@ GameObject:
   - component: {fileID: 1042762585}
   - component: {fileID: 1042762584}
   - component: {fileID: 1042762589}
+  - component: {fileID: 1042762591}
+  - component: {fileID: 1042762590}
   m_Layer: 0
   m_Name: XR Origin
   m_TagString: Player
@@ -3130,6 +3132,31 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   m_ActionAssets:
   - {fileID: -944628639613478452, guid: c348712bda248c246b8c49b3db54643f, type: 3}
+--- !u!114 &1042762590
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 1042762583}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: e0fc425e38e7f254993f485f6edfc801, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+--- !u!65 &1042762591
+BoxCollider:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 1042762583}
+  m_Material: {fileID: 0}
+  m_IsTrigger: 1
+  m_Enabled: 1
+  serializedVersion: 2
+  m_Size: {x: 0.7516596, y: 0.93995714, z: 0.80767316}
+  m_Center: {x: 0.008972168, y: 1.0733336, z: -0.008306548}
 --- !u!1 &1118048106
 GameObject:
   m_ObjectHideFlags: 0
@@ -4195,7 +4222,7 @@ GameObject:
   - component: {fileID: 1321557980}
   m_Layer: 0
   m_Name: PhoneTest
-  m_TagString: Untagged
+  m_TagString: Phone
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
@@ -4411,14 +4438,14 @@ Transform:
   m_PrefabInstance: {fileID: 0}
   m_PrefabAsset: {fileID: 0}
   m_GameObject: {fileID: 1321557979}
-  m_LocalRotation: {x: 0, y: 0, z: 0, w: 1}
-  m_LocalPosition: {x: 7.2248306, y: 0.7733946, z: -3.6119}
+  m_LocalRotation: {x: -0, y: -0.25106093, z: -0, w: 0.9679713}
+  m_LocalPosition: {x: 7.265, y: 0.752, z: -3.6119}
   m_LocalScale: {x: 0.24114738, y: 0.01749812, z: 0.1486066}
   m_ConstrainProportionsScale: 0
   m_Children: []
   m_Father: {fileID: 0}
   m_RootOrder: 9
-  m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
+  m_LocalEulerAnglesHint: {x: 0, y: -29.081, z: 0}
 --- !u!1 &1379728448
 GameObject:
   m_ObjectHideFlags: 0
