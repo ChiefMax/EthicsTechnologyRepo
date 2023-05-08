@@ -5,9 +5,18 @@ EditorBuildSettings:
   m_ObjectHideFlags: 0
   serializedVersion: 2
   m_Scenes:
-  - enabled: 1
+  - enabled: 0
     path: Assets/Scenes/SampleScene.unity
     guid: 99c9720ab356a0642a771bea13969a05
+  - enabled: 0
+    path: 
+    guid: 00000000000000000000000000000000
+  - enabled: 1
+    path: Assets/Scenes/MainScene.unity
+    guid: 536a9b555b8d56b41ad3505238e8b2ec
+  - enabled: 1
+    path: Assets/Scenes/SocialMediaBubble.unity
+    guid: fefe6564aac87754896b2f5029043bfa
   m_configObjects:
     Unity.XR.Oculus.Settings: {fileID: 11400000, guid: 7edfe91d83f75ec43ae086248abadab0,
       type: 2}
