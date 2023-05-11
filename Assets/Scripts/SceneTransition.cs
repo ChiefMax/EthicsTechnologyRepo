@@ -12,6 +12,7 @@ public class SceneTransition : MonoBehaviour
     private int SelectScene;
 
     private bool isTransition = false;
+    private bool endTrigger = false;
 
 
     public void Update()
@@ -21,6 +22,12 @@ public class SceneTransition : MonoBehaviour
             Debug.Log("Transition to scene");
             GoToScene(SelectScene);
             isTransition = false;
+        }
+
+        if (endTrigger)
+        {
+            GoToScene(2);
+            endTrigger = false;
         }
     }
 
@@ -46,6 +53,11 @@ public class SceneTransition : MonoBehaviour
         {
             Debug.Log("Phone Collided");
             isTransition = true;
+        }
+        if (other.tag == "EndTrigger")
+        {
+            Debug.Log("EndGame");
+            endTrigger = true;
         }
     }
 }

@@ -6,6 +6,7 @@ TagManager:
   tags:
   - Phone
   - Messages
+  - EndTrigger
   layers:
   - Default
   - TransparentFX
