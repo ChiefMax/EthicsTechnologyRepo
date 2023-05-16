@@ -9,6 +9,9 @@ public class Vocals : MonoBehaviour
 
     public static Vocals instance;
 
+    private Queue audioClips;
+    private Queue subtitleItems;
+
     private void Awake()
     {
         instance = this;
@@ -17,27 +20,35 @@ public class Vocals : MonoBehaviour
     private void Start()
     {
         source = gameObject.AddComponent<AudioSource>();
+        StartCoroutine(WaitForDialogue(5f));
     }
 
     public void Say(AudioObject clip)
     {
+        FillTheQueue(clip);
+
         if (source.isPlaying)
             source.Stop();
         
         for (int i = 0; i < clip.subtile.Length; i++) 
         {
-            StartCoroutine(WaitForDialogue(5f));
-            //Debug.Log(element.Length + " and the other array " + clip.subtile.Length);
+            Debug.Log(clip.subtile.Length);
             source.PlayOneShot(clip.clip[i]);
             SubtitleUIManager.instance.SetSubtile(clip.subtile[i], clip.clip[i].length);
+        }
+    }
 
-            
+    public void FillTheQueue(AudioObject audioObject) 
+    {
+        foreach (var element in audioObject.clip) 
+        {
+            audioClips.Enqueue(element);
         }
 
-        
-        
-
-
+        foreach (var element in audioObject.subtile) 
+        {
+            subtitleItems.Enqueue(element);
+        }
     }
 
     private IEnumerator WaitForDialogue(float WaitTime)
