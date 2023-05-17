@@ -12,5 +12,7 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: bbae6e6c11b72a141825e4ffbfbc780d, type: 3}
   m_Name: RandomAlarmSound4
   m_EditorClassIdentifier: 
+  clip:
+  - {fileID: 8300000, guid: 6056065bd363407458f1be389915554b, type: 3}
   subtile:
   - I have to get up!

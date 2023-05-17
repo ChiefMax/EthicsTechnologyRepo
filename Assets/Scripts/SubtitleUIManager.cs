@@ -16,10 +16,11 @@ public class SubtitleUIManager : MonoBehaviour
         ClearSubtile();
     }
 
-    public void SetSubtile(string subtitle, float delay)
+    public void SetSubtile(string subtitle)
     {
+        ClearSubtile();
         subtitleText.text = subtitle;
-        StartCoroutine(ClearAfterSeconds(delay));
+        //StartCoroutine(ClearAfterSeconds(delay));
     }
 
     public void ClearSubtile() 

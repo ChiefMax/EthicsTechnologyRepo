@@ -2,6 +2,7 @@ using System.Collections;
 using System.Collections.Generic;
 using System.Net.NetworkInformation;
 using UnityEngine;
+using UnityEngine.Animations;
 
 public class Vocals : MonoBehaviour
 {
@@ -9,8 +10,8 @@ public class Vocals : MonoBehaviour
 
     public static Vocals instance;
 
-    private Queue audioClips;
-    private Queue subtitleItems;
+    private Queue<AudioClip> audioClips;
+    private Queue<string> subtitleItems;
 
     private void Awake()
     {
@@ -20,7 +21,6 @@ public class Vocals : MonoBehaviour
     private void Start()
     {
         source = gameObject.AddComponent<AudioSource>();
-        StartCoroutine(WaitForDialogue(5f));
     }
 
     public void Say(AudioObject clip)
@@ -29,23 +29,32 @@ public class Vocals : MonoBehaviour
 
         if (source.isPlaying)
             source.Stop();
-        
-        for (int i = 0; i < clip.subtile.Length; i++) 
+
+        StartCoroutine(SayCoroutine());
+    }
+
+    public IEnumerator SayCoroutine()
+    {
+        while(audioClips.Count > 0)
         {
-            Debug.Log(clip.subtile.Length);
-            source.PlayOneShot(clip.clip[i]);
-            SubtitleUIManager.instance.SetSubtile(clip.subtile[i], clip.clip[i].length);
+            Debug.Log(audioClips.Count);
+            AudioClip currentClip = audioClips.Dequeue();
+            source.PlayOneShot(currentClip);
+            SubtitleUIManager.instance.SetSubtile(subtitleItems.Dequeue());
+            yield return new WaitForSeconds(currentClip.length);
         }
     }
 
     public void FillTheQueue(AudioObject audioObject) 
     {
-        foreach (var element in audioObject.clip) 
+        audioClips = new();
+        subtitleItems = new();
+        foreach (var element in audioObject.clip)
         {
             audioClips.Enqueue(element);
         }
 
-        foreach (var element in audioObject.subtile) 
+        foreach (var element in audioObject.subtile)
         {
             subtitleItems.Enqueue(element);
         }
