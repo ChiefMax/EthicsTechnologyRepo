@@ -1,0 +1,24 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &11400000
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 2b1713945888f5c4b8f99016666cb7b5, type: 3}
+  m_Name: Pictures
+  m_EditorClassIdentifier: 
+  subtile:
+  - I remember this, I was so happy here
+  - "I haven\u2019t talked to these people in forever, I just don\u2019t have the
+    energy"
+  - "It\u2019s not like they\u2019ve reached out, why would they? I've become a burden
+    to everyone, I\u2019m not fun anymore"
+  - "Why can\u2019t I feel like this anymore?"
+  - I ruin everything
+  - "They\u2019re probably talking about how annoying I am and how they\u2019re glad
+    that I'm not in their life anymore"
