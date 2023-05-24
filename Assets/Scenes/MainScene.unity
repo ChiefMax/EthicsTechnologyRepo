@@ -5734,6 +5734,7 @@ GameObject:
   - component: {fileID: 1184195076}
   - component: {fileID: 1184195075}
   - component: {fileID: 1184195078}
+  - component: {fileID: 1184195079}
   m_Layer: 0
   m_Name: CanvasHeavyFeeling
   m_TagString: Untagged
@@ -5846,6 +5847,21 @@ Animator:
   m_AllowConstantClipSamplingOptimization: 1
   m_KeepAnimatorStateOnDisable: 0
   m_WriteDefaultValuesOnDisable: 0
+--- !u!114 &1184195079
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 1184195073}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 91fbf8557a94e0b48bebcdc391651d4e, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  heavyfeeling: {fileID: 7400000, guid: e979f4d3afb4e3945ae5e578e1f479c2, type: 2}
+  TeleportButton: {fileID: -8061240218431744966, guid: c348712bda248c246b8c49b3db54643f,
+    type: 3}
 --- !u!1 &1244597456
 GameObject:
   m_ObjectHideFlags: 0

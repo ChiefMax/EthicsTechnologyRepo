@@ -20,19 +20,8 @@ public class AlarmClock : MonoBehaviour
         randomTimes.Enqueue("09:00");
     }
 
-    // Update is called once per frame
-    void Update()
-    {
-
-    }
-
     public void ChangeTheTime()
     {
-        Debug.Log(randomTimes.Count);
-        while (randomTimes.Count > 0)
-        {
-            alarmText.text = randomTimes.Dequeue();
-        }
-
+        alarmText.text = randomTimes.Dequeue();
     }
 }
