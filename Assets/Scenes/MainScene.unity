@@ -4786,7 +4786,7 @@ GameObject:
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
-  m_IsActive: 0
+  m_IsActive: 1
 --- !u!4 &1044752269
 Transform:
   m_ObjectHideFlags: 0
@@ -4865,7 +4865,7 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   OnStartFade: 1
-  FadeDuration: 4
+  FadeDuration: 1
   fadeColor: {r: 1, g: 1, b: 1, a: 1}
 --- !u!1 &1118048106
 GameObject:
@@ -5859,7 +5859,7 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 91fbf8557a94e0b48bebcdc391651d4e, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  heavyfeeling: {fileID: 7400000, guid: e979f4d3afb4e3945ae5e578e1f479c2, type: 2}
+  theCanvas: {fileID: 1184195073}
   TeleportButton: {fileID: -8061240218431744966, guid: c348712bda248c246b8c49b3db54643f,
     type: 3}
 --- !u!1 &1244597456

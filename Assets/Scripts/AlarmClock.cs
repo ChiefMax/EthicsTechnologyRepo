@@ -22,6 +22,10 @@ public class AlarmClock : MonoBehaviour
 
     public void ChangeTheTime()
     {
-        alarmText.text = randomTimes.Dequeue();
+        if (!randomTimes.Count.Equals(0)) 
+        {
+            alarmText.text = randomTimes.Dequeue();
+        }
+        
     }
 }

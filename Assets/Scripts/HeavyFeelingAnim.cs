@@ -7,9 +7,7 @@ using UnityEngine.InputSystem;
 public class HeavyFeelingAnim : MonoBehaviour
 {
     [SerializeField]
-    private AnimationClip heavyfeeling;
-
-    private Animation anim;
+    private GameObject theCanvas;
 
     [SerializeField]
     private InputActionReference TeleportButton;
@@ -17,7 +15,12 @@ public class HeavyFeelingAnim : MonoBehaviour
     // Start is called before the first frame update
     void Start()
     {
-        anim = GetComponent<Animation>();
+        
+    }
+
+    public void Awake()
+    {
+        theCanvas.GetComponent<Animator>().Play("WakeUpAnimation");
     }
 
     // Update is called once per frame
@@ -25,8 +28,7 @@ public class HeavyFeelingAnim : MonoBehaviour
     {
         if (TeleportButton.action.IsPressed())
         {
-            anim.clip = heavyfeeling;
-            anim.Play();
+            theCanvas.GetComponent<Animator>().Play("HeavyfeelingAnimation");
         }
     }
 }
