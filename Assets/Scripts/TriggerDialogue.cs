@@ -15,4 +15,13 @@ public class TriggerDialogue : MonoBehaviour
         }
 
     }
+
+    private void OnTriggerExit(Collider other)
+    {
+        if (other.CompareTag("Player"))
+        {
+            Debug.Log("Trigger wake up " + clipToPlay);
+            Vocals.instance.StopTheDialogue();
+        }
+    }
 }

@@ -7,7 +7,6 @@ public class RandomAlarmVOSounds : MonoBehaviour
     [SerializeField]
     private AudioObject[] randomAudios;
 
-    [SerializeField]
     private int counter = 0;
 
     private bool isDoneWithAlarm = false;
