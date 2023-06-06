@@ -14,26 +14,26 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   AssetPath: Assets/3DAssets/models/floors and walls/living room wall/living room
     wall.sbsar
-  OutputPath: Assets/3DAssets/models/floors and walls/living room wall/living room
+  OutputPath: Assets\3DAssets\models\floors and walls\living room wall\living room
     wall_graph_0
   RawData: {fileID: -244192453324840774, guid: 5dc7a7ba5557c404c86f0eba03c923e3, type: 3}
   Name: graph_0
   IsRoot: 1
   FlagedForDelete: 0
-  GUID: e65cb464-36ca-4400-b730-5fcafda2b6fc
+  GUID: ffa2f022-b51b-4658-9a58-cb0f745564a7
   Index: 0
   Input:
-  - rid: 9035812556982452286
-  - rid: 9035812556982452287
-  - rid: 9035812556982452288
-  - rid: 9035812556982452289
-  - rid: 9035812556982452290
-  - rid: 9035812556982452291
-  - rid: 9035812556982452292
-  - rid: 9035812556982452293
-  - rid: 9035812556982452294
-  - rid: 9035812556982452295
-  - rid: 9035812556982452296
+  - rid: 883582973483155467
+  - rid: 883582973483155468
+  - rid: 883582973483155469
+  - rid: 883582973483155470
+  - rid: 883582973483155471
+  - rid: 883582973483155472
+  - rid: 883582973483155473
+  - rid: 883582973483155474
+  - rid: 883582973483155475
+  - rid: 883582973483155476
+  - rid: 883582973483155477
   Output:
   - Index: 0
     VirtualOutputIndex: 6
@@ -139,12 +139,9 @@ MonoBehaviour:
   CurrentStatePreset: " <sbspreset pkgurl=\"pkg://living_room_wall\" label=\"\" >\n 
     <presetinput identifier=\"$outputsize\" uid=\"3592018329\" type=\"8\" value=\"11,11\"
     />\n  <presetinput identifier=\"Color_wallhue\" uid=\"3034374648\" type=\"0\"
-    value=\"0.329\" />\n  <presetinput identifier=\"Color_wallsaturation\" uid=\"3034374650\"
-    type=\"0\" value=\"0.45\" />\n  <presetinput identifier=\"Color_wallluminosity\"
-    uid=\"3034374652\" type=\"0\" value=\"0.72\" />\n  <presetinput identifier=\"Color_wall_edgeshue\"
-    uid=\"3034375004\" type=\"0\" value=\"0.529\" />\n  <presetinput identifier=\"Color_wall_edgessaturation\"
-    uid=\"3034375006\" type=\"0\" value=\"0.409\" />\n  <presetinput identifier=\"Color_wall_edgesluminosity\"
-    uid=\"3034374992\" type=\"0\" value=\"0.395\" />\n </sbspreset>\n"
+    value=\"0.826\" />\n  <presetinput identifier=\"Color_wallsaturation\" uid=\"3034374650\"
+    type=\"0\" value=\"0.444\" />\n  <presetinput identifier=\"Color_wallluminosity\"
+    uid=\"3034374652\" type=\"0\" value=\"0.469\" />\n </sbspreset>\n"
   IsRuntimeOnly: 0
   GenerateAllOutputs: 0
   GenerateAllMipmaps: 1
@@ -153,12 +150,12 @@ MonoBehaviour:
     identifier=\"$outputsize\" uid=\"3592018329\" type=\"8\" value=\"10,10\" />\n
     </sbspreset>\n"
   MaterialShader: Universal Render Pipeline/Lit
-  RenderTextures: 0
-  OutputRemaped: 0
+  RenderTextures: 1
+  OutputRemaped: 1
   references:
     version: 2
     RefIds:
-    - rid: 9035812556982452286
+    - rid: 883582973483155467
       type: {class: SubstanceInputInt2, ns: Adobe.Substance.Input, asm: Adobe.Substance}
       data:
         Index: 0
@@ -177,7 +174,7 @@ MonoBehaviour:
           SliderClamp: 0
           EnumValueCount: 0
           EnumValues: []
-    - rid: 9035812556982452287
+    - rid: 883582973483155468
       type: {class: SubstanceInputInt, ns: Adobe.Substance.Input, asm: Adobe.Substance}
       data:
         Index: 1
@@ -199,7 +196,7 @@ MonoBehaviour:
           LabelTrue: 
           EnumValueCount: 0
           EnumValues: []
-    - rid: 9035812556982452288
+    - rid: 883582973483155469
       type: {class: SubstanceInputFloat, ns: Adobe.Substance.Input, asm: Adobe.Substance}
       data:
         Index: 2
@@ -210,7 +207,7 @@ MonoBehaviour:
           GuiDescription: 
           Type: 0
           WidgetType: 1
-        Data: 0.329
+        Data: 0.826
         NumericalDescription:
           DefaultValue: 0.5
           MinValue: 0
@@ -219,7 +216,7 @@ MonoBehaviour:
           SliderClamp: 0
           EnumValueCount: 0
           EnumValues: []
-    - rid: 9035812556982452289
+    - rid: 883582973483155470
       type: {class: SubstanceInputFloat, ns: Adobe.Substance.Input, asm: Adobe.Substance}
       data:
         Index: 3
@@ -230,7 +227,7 @@ MonoBehaviour:
           GuiDescription: 
           Type: 0
           WidgetType: 1
-        Data: 0.45
+        Data: 0.444
         NumericalDescription:
           DefaultValue: 0.5
           MinValue: 0
@@ -239,7 +236,7 @@ MonoBehaviour:
           SliderClamp: 0
           EnumValueCount: 0
           EnumValues: []
-    - rid: 9035812556982452290
+    - rid: 883582973483155471
       type: {class: SubstanceInputFloat, ns: Adobe.Substance.Input, asm: Adobe.Substance}
       data:
         Index: 4
@@ -250,7 +247,7 @@ MonoBehaviour:
           GuiDescription: 
           Type: 0
           WidgetType: 1
-        Data: 0.72
+        Data: 0.469
         NumericalDescription:
           DefaultValue: 0.5
           MinValue: 0
@@ -259,7 +256,7 @@ MonoBehaviour:
           SliderClamp: 0
           EnumValueCount: 0
           EnumValues: []
-    - rid: 9035812556982452291
+    - rid: 883582973483155472
       type: {class: SubstanceInputFloat, ns: Adobe.Substance.Input, asm: Adobe.Substance}
       data:
         Index: 5
@@ -270,7 +267,7 @@ MonoBehaviour:
           GuiDescription: 
           Type: 0
           WidgetType: 1
-        Data: 0.529
+        Data: 0.5
         NumericalDescription:
           DefaultValue: 0.5
           MinValue: 0
@@ -279,7 +276,7 @@ MonoBehaviour:
           SliderClamp: 0
           EnumValueCount: 0
           EnumValues: []
-    - rid: 9035812556982452292
+    - rid: 883582973483155473
       type: {class: SubstanceInputFloat, ns: Adobe.Substance.Input, asm: Adobe.Substance}
       data:
         Index: 6
@@ -290,7 +287,7 @@ MonoBehaviour:
           GuiDescription: 
           Type: 0
           WidgetType: 1
-        Data: 0.409
+        Data: 0.5
         NumericalDescription:
           DefaultValue: 0.5
           MinValue: 0
@@ -299,7 +296,7 @@ MonoBehaviour:
           SliderClamp: 0
           EnumValueCount: 0
           EnumValues: []
-    - rid: 9035812556982452293
+    - rid: 883582973483155474
       type: {class: SubstanceInputFloat, ns: Adobe.Substance.Input, asm: Adobe.Substance}
       data:
         Index: 7
@@ -310,7 +307,7 @@ MonoBehaviour:
           GuiDescription: 
           Type: 0
           WidgetType: 1
-        Data: 0.395
+        Data: 0.5
         NumericalDescription:
           DefaultValue: 0.5
           MinValue: 0
@@ -319,7 +316,7 @@ MonoBehaviour:
           SliderClamp: 0
           EnumValueCount: 0
           EnumValues: []
-    - rid: 9035812556982452294
+    - rid: 883582973483155475
       type: {class: SubstanceInputFloat, ns: Adobe.Substance.Input, asm: Adobe.Substance}
       data:
         Index: 8
@@ -340,7 +337,7 @@ MonoBehaviour:
           SliderClamp: 0
           EnumValueCount: 0
           EnumValues: []
-    - rid: 9035812556982452295
+    - rid: 883582973483155476
       type: {class: SubstanceInputFloat, ns: Adobe.Substance.Input, asm: Adobe.Substance}
       data:
         Index: 9
@@ -361,7 +358,7 @@ MonoBehaviour:
           SliderClamp: 0
           EnumValueCount: 0
           EnumValues: []
-    - rid: 9035812556982452296
+    - rid: 883582973483155477
       type: {class: SubstanceInputFloat, ns: Adobe.Substance.Input, asm: Adobe.Substance}
       data:
         Index: 10
