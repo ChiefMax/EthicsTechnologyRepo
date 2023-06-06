@@ -8,7 +8,7 @@ public class MainMenu : MonoBehaviour
    
     public void PlayButton() 
     {
-        SceneManager.LoadScene("OtherSceneName");
+        SceneManager.LoadScene(0);
     }
 
     public void QuiteButton() 
