@@ -4427,8 +4427,9 @@ MonoBehaviour:
       m_Calls: []
   m_text: 07:30
   m_isRightToLeft: 0
-  m_fontAsset: {fileID: 11400000, guid: 8f586378b4e144a9851e7b34d9b748ee, type: 2}
-  m_sharedMaterial: {fileID: 2180264, guid: 8f586378b4e144a9851e7b34d9b748ee, type: 2}
+  m_fontAsset: {fileID: 11400000, guid: 2e8b28814eaa82947a6fe997bdeec1ea, type: 2}
+  m_sharedMaterial: {fileID: 1702800745242340504, guid: 2e8b28814eaa82947a6fe997bdeec1ea,
+    type: 2}
   m_fontSharedMaterials: []
   m_fontMaterial: {fileID: 0}
   m_fontMaterials: []
@@ -4755,7 +4756,7 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   fadeScreen: {fileID: 1044752272}
-  SelectScene: 1
+  SelectScene: 0
 --- !u!114 &1042762594
 MonoBehaviour:
   m_ObjectHideFlags: 0
