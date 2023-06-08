@@ -4,6 +4,7 @@ using UnityEngine;
 using UnityEngine.InputSystem;
 using UnityEngine.Events;
 using System;
+using UnityEngine.InputSystem.XR;
 
 public class TeleportToggle : MonoBehaviour
 {

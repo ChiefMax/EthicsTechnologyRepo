@@ -8,7 +8,7 @@ public class DaylightChange : MonoBehaviour
     private GameObject TheSun;
 
     [SerializeField]
-    private int AmountOfRotaion = 10;
+    private int AmountOfRotation = 10;
 
     // Start is called before the first frame update
     void Start()
@@ -24,6 +24,9 @@ public class DaylightChange : MonoBehaviour
 
     public void ChangeTimeOfDay() 
     {
-        TheSun.transform.Rotate(Vector3.right * AmountOfRotaion);
+        if (TheSun.transform.rotation.eulerAngles.x <= 45) 
+        {
+            TheSun.transform.Rotate(Vector3.right * AmountOfRotation);
+        }
     }
 }
