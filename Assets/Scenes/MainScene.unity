@@ -4427,8 +4427,9 @@ MonoBehaviour:
       m_Calls: []
   m_text: 07:30
   m_isRightToLeft: 0
-  m_fontAsset: {fileID: 11400000, guid: 8f586378b4e144a9851e7b34d9b748ee, type: 2}
-  m_sharedMaterial: {fileID: 2180264, guid: 8f586378b4e144a9851e7b34d9b748ee, type: 2}
+  m_fontAsset: {fileID: 11400000, guid: 2e8b28814eaa82947a6fe997bdeec1ea, type: 2}
+  m_sharedMaterial: {fileID: 1702800745242340504, guid: 2e8b28814eaa82947a6fe997bdeec1ea,
+    type: 2}
   m_fontSharedMaterials: []
   m_fontMaterial: {fileID: 0}
   m_fontMaterials: []
@@ -4740,8 +4741,8 @@ BoxCollider:
   m_IsTrigger: 1
   m_Enabled: 1
   serializedVersion: 2
-  m_Size: {x: 0.51076204, y: 0.287516, z: 0.80767316}
-  m_Center: {x: -0.017383367, y: 1.1475809, z: -0.008306563}
+  m_Size: {x: 0.51076204, y: 0.32458687, z: 0.8539764}
+  m_Center: {x: -0.017383367, y: 1.1290455, z: 0.014845073}
 --- !u!114 &1042762592
 MonoBehaviour:
   m_ObjectHideFlags: 0
@@ -4755,7 +4756,7 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   fadeScreen: {fileID: 1044752272}
-  SelectScene: 1
+  SelectScene: 0
 --- !u!114 &1042762594
 MonoBehaviour:
   m_ObjectHideFlags: 0
