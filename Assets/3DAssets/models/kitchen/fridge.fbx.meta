@@ -3,7 +3,22 @@ guid: 9308f549f47a1044cbc0ca7e47636039
 ModelImporter:
   serializedVersion: 21300
   internalIDToNameTable: []
-  externalObjects: {}
+  externalObjects:
+  - first:
+      type: UnityEngine:Material
+      assembly: UnityEngine.CoreModule
+      name: Fridge_Base_kitchen
+    second: {fileID: 2100000, guid: c2ba9cd92c689bf438c1744b1b590e76, type: 2}
+  - first:
+      type: UnityEngine:Material
+      assembly: UnityEngine.CoreModule
+      name: Fridge_details_kitchen
+    second: {fileID: 2100000, guid: a92d5cccef9cb484b88e84832a986b0f, type: 2}
+  - first:
+      type: UnityEngine:Material
+      assembly: UnityEngine.CoreModule
+      name: opacity
+    second: {fileID: 2100000, guid: a10612db14ab7e94285d3e26f1c23d1c, type: 2}
   materials:
     materialImportMode: 2
     materialName: 0
