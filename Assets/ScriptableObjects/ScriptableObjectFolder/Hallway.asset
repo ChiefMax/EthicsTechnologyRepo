@@ -1,0 +1,21 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &11400000
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: bbae6e6c11b72a141825e4ffbfbc780d, type: 3}
+  m_Name: Hallway
+  m_EditorClassIdentifier: 
+  clip:
+  - {fileID: 8300000, guid: f9098c54466ee2c47b8af5821242f80d, type: 3}
+  - {fileID: 8300000, guid: 53e4976a43c886245b42360669224449, type: 3}
+  subtile:
+  - "I\u2019m not depressed, I\u2019m just faking it for attention, that doesn\u2019t
+    make sense, why would I do that? Maybe I'm delusional."
+  - "I want to sleep, I\u2019m so tired."

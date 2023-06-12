@@ -1,0 +1,32 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &11400000
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: bbae6e6c11b72a141825e4ffbfbc780d, type: 3}
+  m_Name: SocialMedia
+  m_EditorClassIdentifier: 
+  clip:
+  - {fileID: 8300000, guid: 1628764bf1bdcb949894368e2d97f7f9, type: 3}
+  - {fileID: 8300000, guid: 51415110e2676bd499ae6b40bfbc550d, type: 3}
+  - {fileID: 8300000, guid: 0e9b19cbfd32c0c4ebd1dace6936ad75, type: 3}
+  - {fileID: 8300000, guid: 971ee4a2c952c8641801fb51d4e031b0, type: 3}
+  - {fileID: 8300000, guid: 940d8895aa6b54f49bd7ca65105bb9b3, type: 3}
+  - {fileID: 8300000, guid: a9182d7440d83eb4692c08c098a66cdd, type: 3}
+  - {fileID: 8300000, guid: 3e2b1555b44dc8243bcc95c25f0a9bad, type: 3}
+  - {fileID: 8300000, guid: cabcdbfda5ff4ec47a9886779569bd89, type: 3}
+  subtile:
+  - I really need to get ready
+  - I should just delete all my social media and never speak to anyone ever again
+  - I wish everyone would just leave me alone
+  - Just a quick scroll before I get ready
+  - The world is going insane
+  - "Why can\u2019t my life be like that?"
+  - Why do I even have this stupid app? waste of time
+  - Why does everyone have a better life than me?

@@ -13,6 +13,6 @@ MonoBehaviour:
   m_Name: RandomAlarmSound2
   m_EditorClassIdentifier: 
   clip:
-  - {fileID: 8300000, guid: 6056065bd363407458f1be389915554b, type: 3}
+  - {fileID: 8300000, guid: 8427e2e6d2772a84bbd2f162e6dec643, type: 3}
   subtile:
-  - SHUT UP!
+  - I want to sleep
