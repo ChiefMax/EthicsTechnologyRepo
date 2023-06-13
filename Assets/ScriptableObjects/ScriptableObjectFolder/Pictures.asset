@@ -13,12 +13,16 @@ MonoBehaviour:
   m_Name: Pictures
   m_EditorClassIdentifier: 
   clip:
-  - {fileID: 8300000, guid: 6056065bd363407458f1be389915554b, type: 3}
-  - {fileID: 8300000, guid: 6056065bd363407458f1be389915554b, type: 3}
-  - {fileID: 8300000, guid: 6056065bd363407458f1be389915554b, type: 3}
-  - {fileID: 8300000, guid: 6056065bd363407458f1be389915554b, type: 3}
+  - {fileID: 8300000, guid: 0c149bd9d6b499e478331ccdd83a0a9f, type: 3}
+  - {fileID: 8300000, guid: ba5eca32984a9204db64476edd5d9a44, type: 3}
+  - {fileID: 8300000, guid: 6eda92442c02ce849992c7b4b9110e26, type: 3}
+  - {fileID: 8300000, guid: dc016d1bad059a14a8575bc14eaceeb1, type: 3}
+  - {fileID: 8300000, guid: 4b6aaacf86945c446bb0f330cbdbb03a, type: 3}
+  - {fileID: 8300000, guid: 7e19f9a7da1e01c48a346350b9f2e962, type: 3}
   subtile:
-  - Test 1
-  - Test 2
-  - Test 3
-  - Test 4
+  - I haven't talked to any of these people.
+  - I remember this I was so happy.
+  - I ruin everything.
+  - It's not like they have reached out.
+  - They're probably talking about how annoying I am.
+  - Why can't I feel like this anymore?
