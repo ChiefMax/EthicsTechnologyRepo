@@ -13,6 +13,6 @@ MonoBehaviour:
   m_Name: RandomAlarmSound1
   m_EditorClassIdentifier: 
   clip:
-  - {fileID: 8300000, guid: 6056065bd363407458f1be389915554b, type: 3}
+  - {fileID: 8300000, guid: 4cc8350dd448f0c40bf43ac4f6e9cd4d, type: 3}
   subtile:
   - Nope

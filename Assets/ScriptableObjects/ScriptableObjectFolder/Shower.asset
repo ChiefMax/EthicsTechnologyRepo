@@ -1,0 +1,22 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &11400000
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: bbae6e6c11b72a141825e4ffbfbc780d, type: 3}
+  m_Name: Shower
+  m_EditorClassIdentifier: 
+  clip:
+  - {fileID: 8300000, guid: f2a63e6133c3def41ac0d6878a5563dc, type: 3}
+  - {fileID: 8300000, guid: 2f90be19d67cf194e84cc001b8652665, type: 3}
+  - {fileID: 8300000, guid: 68ce25d3abedb41488b2fecd43fd4f25, type: 3}
+  subtile:
+  - "I don\u2019t have time to shower."
+  - "I\u2019m so gross, this is why people stay away from me"
+  - "I\u2019m so useless, I can\u2019t even take a shower"

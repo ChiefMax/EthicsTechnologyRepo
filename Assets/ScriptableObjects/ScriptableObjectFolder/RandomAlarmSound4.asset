@@ -13,6 +13,6 @@ MonoBehaviour:
   m_Name: RandomAlarmSound4
   m_EditorClassIdentifier: 
   clip:
-  - {fileID: 8300000, guid: 6056065bd363407458f1be389915554b, type: 3}
+  - {fileID: 8300000, guid: ef6257fd644811e408bd92cb0d1a0e8c, type: 3}
   subtile:
-  - I have to get up!
+  - I hate that sound!
