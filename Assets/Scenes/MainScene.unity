@@ -8634,7 +8634,7 @@ HingeJoint:
     freeSpin: 0
   m_UseLimits: 1
   m_Limits:
-    min: 3.9699523
+    min: -2.9313233
     max: 98.7966
     bounciness: 0
     bounceMinVelocity: 0.2
@@ -9920,8 +9920,8 @@ HingeJoint:
     freeSpin: 0
   m_UseLimits: 1
   m_Limits:
-    min: 1.9185687
-    max: 138.36826
+    min: -0.56821716
+    max: 106.20755
     bounciness: 0
     bounceMinVelocity: 0.2
     contactDistance: 0
@@ -13291,7 +13291,7 @@ HingeJoint:
     freeSpin: 0
   m_UseLimits: 1
   m_Limits:
-    min: -100.13678
+    min: -84.36541
     max: 0.43069303
     bounciness: 0
     bounceMinVelocity: 0.2
