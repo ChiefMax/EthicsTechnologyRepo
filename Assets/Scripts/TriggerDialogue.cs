@@ -5,6 +5,7 @@ using UnityEngine;
 public class TriggerDialogue : MonoBehaviour
 {
     public AudioObject clipToPlay;
+    public GameObject TheTrigger;
 
     private void OnTriggerEnter(Collider other)
     {
@@ -22,6 +23,7 @@ public class TriggerDialogue : MonoBehaviour
         {
             Debug.Log("Trigger wake up " + clipToPlay);
             Vocals.instance.StopTheDialogue();
+            TheTrigger.SetActive(false);
         }
     }
 }
