@@ -4075,7 +4075,7 @@ MonoBehaviour:
   m_Camera: {fileID: 886456057}
   m_OriginBaseGameObject: {fileID: 1042762583}
   m_CameraFloorOffsetObject: {fileID: 980313020}
-  m_RequestedTrackingOriginMode: 2
+  m_RequestedTrackingOriginMode: 0
   m_CameraYOffset: 1.1176
 --- !u!4 &1042762588
 Transform:
@@ -4085,7 +4085,7 @@ Transform:
   m_PrefabAsset: {fileID: 0}
   m_GameObject: {fileID: 1042762583}
   m_LocalRotation: {x: 0, y: 0, z: 0, w: 1}
-  m_LocalPosition: {x: 5.36, y: 0, z: -8.37}
+  m_LocalPosition: {x: 5.36, y: -0.211, z: -8.37}
   m_LocalScale: {x: 1, y: 1, z: 1}
   m_ConstrainProportionsScale: 0
   m_Children:
@@ -7054,6 +7054,7 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   clipToPlay: {fileID: 11400000, guid: 47119e70974b25245ac72081ea4e8a1d, type: 2}
+  TheTrigger: {fileID: 0}
 --- !u!65 &2112542675505655300
 BoxCollider:
   m_ObjectHideFlags: 0
