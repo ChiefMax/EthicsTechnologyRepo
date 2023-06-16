@@ -4075,7 +4075,7 @@ MonoBehaviour:
   m_Camera: {fileID: 886456057}
   m_OriginBaseGameObject: {fileID: 1042762583}
   m_CameraFloorOffsetObject: {fileID: 980313020}
-  m_RequestedTrackingOriginMode: 2
+  m_RequestedTrackingOriginMode: 0
   m_CameraYOffset: 1.1176
 --- !u!4 &1042762588
 Transform:
@@ -4085,7 +4085,7 @@ Transform:
   m_PrefabAsset: {fileID: 0}
   m_GameObject: {fileID: 1042762583}
   m_LocalRotation: {x: 0, y: 0, z: 0, w: 1}
-  m_LocalPosition: {x: 5.36, y: 0, z: -8.37}
+  m_LocalPosition: {x: 5.36, y: -0.211, z: -8.37}
   m_LocalScale: {x: 1, y: 1, z: 1}
   m_ConstrainProportionsScale: 0
   m_Children:
@@ -5327,6 +5327,7 @@ GameObject:
   - component: {fileID: 1321557982}
   - component: {fileID: 1321557981}
   - component: {fileID: 1321557980}
+  - component: {fileID: 1321557986}
   m_Layer: 0
   m_Name: PhoneTest
   m_TagString: Phone
@@ -5554,6 +5555,24 @@ Transform:
   m_Father: {fileID: 0}
   m_RootOrder: 6
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
+--- !u!114 &1321557986
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 1321557979}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 5fea29bb7c508c244a1f805a5fd3fc4d, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  outlineMode: 0
+  outlineColor: {r: 1, g: 1, b: 1, a: 1}
+  outlineWidth: 2
+  precomputeOutline: 0
+  bakeKeys: []
+  bakeValues: []
 --- !u!1 &1333062059 stripped
 GameObject:
   m_CorrespondingSourceObject: {fileID: 8252499436454796363, guid: 7c6cf52d7c70d684a9de81adecacd799,
@@ -7035,6 +7054,7 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   clipToPlay: {fileID: 11400000, guid: 47119e70974b25245ac72081ea4e8a1d, type: 2}
+  TheTrigger: {fileID: 0}
 --- !u!65 &2112542675505655300
 BoxCollider:
   m_ObjectHideFlags: 0
